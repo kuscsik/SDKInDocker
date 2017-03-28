@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+  android_asp_buildrom:
+    build:
+        context: ./
+    volumes:
+      - ../app:/app
+      - ../docker_out:/docker_out
